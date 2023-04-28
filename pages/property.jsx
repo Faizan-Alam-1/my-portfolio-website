@@ -10,11 +10,7 @@ function property() {
     <div className='w-full m-3'>
           <p className='text-purple-500 font-semibold text-[1.2rem]'>Project</p>
           <h2 className='uppercase'>Overview</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Id, harum! Facilis minima quaerat tempora labore quia,
-              earum fuga. Sit distinctio porro mollitia aliquam,
-              asperiores delectus recusandae. 
-              Dolores non repellat ipsam.
+          <p> this is my protfoli website 
             </p>
     </div>
 
