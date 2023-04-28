@@ -11,6 +11,7 @@ function property() {
           <p className='text-purple-500 font-semibold text-[1.2rem]'>Project</p>
           <h2 className='uppercase'>Overview</h2>
           <p> this is my protfoli website 
+               hello world add some more line
             </p>
     </div>
 
