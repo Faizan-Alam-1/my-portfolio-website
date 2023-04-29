@@ -72,19 +72,45 @@ function Main() {
 
         <div className='flex'>
 
-            <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'><AiFillLinkedin size={30} className='text-blue-700'/></div>
-            <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'><AiOutlineGithub size={30} className='text-black'/></div>
+            
+            <a
+            href='https://www.linkedin.com/in/faizan369/'
+            target='_blank'
+            rel='noreferrer'>
+
+               <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'><AiFillLinkedin size={30} className='text-blue-700'/></div>
+          </a>   
+
+
+          <a
+            href='https://github.com/Faizan-Alam-1'
+            target='_blank'
+            rel='noreferrer'>
+
+              <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'><AiOutlineGithub size={30} className='text-black'/></div>
+          </a> 
+
+
+          <a
+            href='https://mail.google.com/mail/u/?authuser=faizanalam2030@gmail.com'
+            target='_blank'
+            rel='noreferrer'>
+
             <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'><AiFillMail size={30} className='text-red-600'/></div>
-            <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'><RiWhatsappFill size={30} className='text-green-600'/></div>
+          </a>
+
+
+          <a
+            href='https://wa.me/8210410103'
+            target='_blank'
+            rel='noreferrer'>
+
+              <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'><RiWhatsappFill size={30} className='text-green-600'/></div>
+          </a>           
 
         </div>
 
            
-      
-
-
-
-
     </div>
    
   )

@@ -19,8 +19,28 @@ function Contact() {
                     <h2>Faizan Alam</h2>
                     <p className='uppercase'>Connect with Me</p>
                     <div className='flex'>
-                        <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'><AiFillFacebook size={30} className='text-blue-700'/></div>
-                        <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>< AiFillInstagram size={30} className='text-pink-400'/></div>
+                        
+                          <a
+                            href='https://www.facebook.com/faizan098alam/'
+                            target='_blank'
+                            rel='noreferrer'>
+
+                                <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'><AiFillFacebook size={30} className='text-blue-700'/></div>
+                          </a>
+
+
+                          <a
+                            href='https://www.instagram.com/faizanalam83/'
+                            target='_blank'
+                            rel='noreferrer'>
+
+                              <div className='m-3 rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>< AiFillInstagram size={30} className='text-pink-400'/></div>
+                          </a>
+
+
+
+                        
+                       
                     </div>
             </div>
 
