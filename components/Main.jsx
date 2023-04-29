@@ -11,7 +11,7 @@ function Main() {
       <span><h2 className='tracking-widest'>
           <Typewriter
                       options={{
-                        strings: ['A Web Developer', 'A Engineer' ],
+                        strings: ['A Web Developer', 'An Engineer' ],
                         autoStart: true,
                         loop: true,
                       }}
@@ -22,14 +22,15 @@ function Main() {
 
 
       <p className='py-2 max-md:hidden text-gray-600 max-w-[50%] m-auto tracking-widest '>
-      Hey everyone ! I'm a front-end web developer with a passion for building great user interfaces. 
-      At the moment, I'm focusing on building responsive web applications.</p>
-      <h3 className='mt-2 max-md:hidden uppercase tracking-widest'>I'm looking for a position in the
+      Hey everyone ! I'm faizan Alam ,  a third-year computer science student with a passion for 
+      DevOps and web development .I'm fascinated by the intersection of development and operations, 
+      as well as my desire to design user-friendly, visually stunning applications.</p>
+      <h3 className='mt-2 max-md:hidden uppercase tracking-widest'>I'm looking for 
       <span>
 
       <Typewriter
                   options={{
-                    strings: ["front end development."],
+                    strings: ["SDE internship"],
                     autoStart: true,
                     loop: true,
                   }}
@@ -43,7 +44,7 @@ function Main() {
             <span><h2 className='my-3'>
                   <Typewriter
                   options={{
-                    strings: ['A Web Developer', 'A Engineer'],
+                    strings: ['A Web Developer', 'An Engineer'],
                     autoStart: true,
                     loop: true,
                   }}
@@ -53,14 +54,15 @@ function Main() {
 
         <div>
             <p className='py-1 text-gray-600 max-w-[60%] md:hidden m-auto'>
-            Hey everyone ! I'm a front-end web developer with a passion for building great user interfaces. 
-            At the moment, I'm focusing on building responsive web applications.</p>
-            <h3 className='mt-2 ml-[6rem] md:hidden'>I'm looking for a position in 
+            Hey everyone ! I'm faizan Alam ,  a third-year computer science student with a passion for 
+            DevOps and web development .I'm fascinated by the intersection of development and operations, 
+            as well as my desire to design user-friendly, visually stunning applications.</p>
+            <h3 className='mt-2 ml-[6rem] md:hidden'>I'm looking for 
             <span>
 
               <Typewriter
                           options={{
-                            strings: ["the front end development."],
+                            strings: ["SDE internship"],
                             autoStart: true,
                             loop: true,
                           }}

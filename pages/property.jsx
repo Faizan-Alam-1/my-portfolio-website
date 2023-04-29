@@ -10,23 +10,38 @@ function property() {
     <div className='w-full m-3'>
           <p className='text-purple-500 font-semibold text-[1.2rem]'>Project</p>
           <h2 className='uppercase'>Overview</h2>
-          <p> this is my protfoli website 
-               hello world add some more line
+          <div className='w-[70%] h-16 m-4 max-md:mb-10' >
+            <p> This website provides data visualization and risk management services.
+             With the help of this website users can visualize the company's risk.
+             I built this website during a 12 hour hackathon.
+
             </p>
+          </div>
+          
     </div>
 
     <div className='ml-3'>
       <a
-            href='https://property-finder-development.web.app/'
+            href='https://github.com/Faizan-Alam-1/CorridorPlatform_Hackathon'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Github Repo</button>
       </a>
 
+        <a
+            href='https://corridor-platform-hackathon.vercel.app'
+            target='_blank'
+            rel='noreferrer'>
+            <button className='px-8 py-2 mt-4 m-4'>Visit to the project</button>
+        </a>
+
+      
       <Link href='/'>
           <button className='px-8 py-2 mt-4 ml-4'>Back</button>
         </Link>
+
+
 
     </div>
 

@@ -12,7 +12,7 @@ function Projects() {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItem 
-                    title='kkkk' 
+                    title='Data Visualization Website' 
                     backgroundImg={Project1} 
                     projectUrl='/property'
                     techStack="Next js"

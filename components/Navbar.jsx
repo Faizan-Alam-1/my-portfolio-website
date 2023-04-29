@@ -27,9 +27,9 @@ const Navbar = () => {
                         <li className='ml-10 text-sm uppercase  hover:font-bold'>Home</li>
                     </Link>
 
-                    <Link href='/#about'>
+                    {/* <Link href='/#about'>
                         <li className='ml-10 text-sm uppercase  hover:font-bold'>About</li>
-                    </Link>
+                    </Link> */}
 
                     <Link href='/#skill'>
                         <li className='ml-10 text-sm uppercase  hover:font-bold'>Skill</li>
@@ -76,9 +76,9 @@ const Navbar = () => {
                             <li onClick={()=>setNav(false)}  className='ml-10 text-lg uppercase hover:border-b hover:font-bold p-2'>Home</li>
                         </Link>
 
-                        <Link href='/#about'>
+                        {/* <Link href='/#about'>
                             <li onClick={()=>setNav(false)}  className='ml-10 text-lg uppercase hover:border-b hover:font-bold p-2'>About</li>
-                        </Link>
+                        </Link> */}
 
                         <Link href='/#skill'>
                             <li onClick={()=>setNav(false)}  className='ml-10 text-lg uppercase hover:border-b hover:font-bold p-2'>Skill</li>
@@ -101,18 +101,45 @@ const Navbar = () => {
                 <p className='text-[1.2rem] font-bold uppercase text-purple-500'><span className='text-[2rem]'>L</span>et's connect</p>
                  <div className='flex justify-evenly'>
 
-                    <div className='rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>
-                        <AiFillLinkedin size={30} className='text-blue-700'/>
-                    </div>
-                    <div className='rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>
-                        <AiOutlineGithub size={30} className='text-black'/>
-                    </div>
-                    <div className='rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>
-                        <AiFillMail size={30} className='text-red-600'/>
-                    </div>
-                    <div className='rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>
-                        <RiWhatsappFill size={30} className='text-green-600'/>
-                    </div>
+                    <a
+                        href='https://www.linkedin.com/in/faizan369/'
+                        target='_blank'
+                        rel='noreferrer'>
+
+                            <div className='rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>
+                                                    <AiFillLinkedin size={30} className='text-blue-700'/></div>
+                    </a>   
+
+
+                    <a
+                        href='https://github.com/Faizan-Alam-1'
+                        target='_blank'
+                        rel='noreferrer'>
+                             <div className='rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>
+                        <AiOutlineGithub size={30} className='text-black'/></div>
+
+                    </a> 
+
+
+                    <a
+                        href='https://mail.google.com/mail/u/?authuser=faizanalam2030@gmail.com'
+                        target='_blank'
+                        rel='noreferrer'>
+
+                        <div className='rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>
+                                                <AiFillMail size={30} className='text-red-600'/></div>
+                    </a>
+
+
+                    <a
+                        href='https://wa.me/8210410103'
+                        target='_blank'
+                        rel='noreferrer'>
+
+                        <div className='rounded-full shadow-lg w-16 h-16 flex justify-center items-center cursor-pointer hover:bg-gray-200'>
+                                                <RiWhatsappFill size={30} className='text-green-600'/></div>
+                    </a>      
+
                  </div>
             </div>
 
