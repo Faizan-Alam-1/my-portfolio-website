@@ -46,7 +46,7 @@ function property() {
     </div>
 
 
-    <div className='m-3 mt-6'>
+    {/* <div className='m-3 mt-6'>
       <h2 className='uppercase'>video demo</h2>
         <div className="md:hidden aspect-w-4 aspect-h-2 m-[2rem] shadow-2xl rounded-[2rem]">
               <iframe className='rounded-[2rem] shadow-2xl' src="https://www.youtube.com/embed/r9jwGansp1E"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
@@ -58,7 +58,7 @@ function property() {
                 </div>
         </div>
 
-    </div>
+    </div> */}
 
     <div className='w-auto m-3 h-44 bg-white border-gray-700 rounded-md shadow-lg shadow-gray-800'>
       <div className='uppercase flex justify-center items-center mt-6'>
