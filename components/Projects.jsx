@@ -21,7 +21,7 @@ function Projects() {
                 <ProjectItem 
                     title='Clone - Facebook Log In Page' 
                     backgroundImg={Project2} 
-                    projectUrl='/property'
+                    projectUrl='/facebook_info'
                     techStack="Tailwind CSS"
                 />
 
