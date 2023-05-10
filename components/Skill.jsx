@@ -21,6 +21,7 @@ function Skill() {
           <Image src="/assets/skills/html.png" alt='/' width='75' height='40'/>
           <Image src="/assets/skills/css.png" alt='/' width='75' height='40'/>
           <Image src="/assets/skills/js.png" alt='/' width='75' height='40'/>
+          <Image src="/assets/skills/java.jpg" alt='/' width='75' height='40'/>
         </div>
 
         
