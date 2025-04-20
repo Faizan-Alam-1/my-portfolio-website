@@ -24,18 +24,18 @@ function Main() {
       <p className='py-2 max-md:hidden text-gray-600 max-w-[50%] m-auto tracking-widest '>
        I am currently working as an entry-level React Developer at TCS, gaining hands-on experience in React development, building user interfaces, and working with GraphQL APIs
 </p>
-      <h3 className='mt-2 max-md:hidden uppercase tracking-widest'>I'm looking for 
-      <span>
+{/*       <h3 className='mt-2 max-md:hidden uppercase tracking-widest'>I'm looking for 
+      <span> */}
 
-      <Typewriter
+{/*       <Typewriter
                   options={{
                     strings: ["SDE internship"],
                     autoStart: true,
                     loop: true,
                   }}
                 />
-
-      </span></h3>
+ */}
+{/*       </span></h3> */}
    
 
        <div className='max-w-[100%] m-auto my-7 md:hidden'>
