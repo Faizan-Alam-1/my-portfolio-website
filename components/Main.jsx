@@ -22,9 +22,8 @@ function Main() {
 
 
       <p className='py-2 max-md:hidden text-gray-600 max-w-[50%] m-auto tracking-widest '>
-      Hey everyone ! I'm faizan Alam ,  a third-year computer science student with a passion for 
-      DevOps and web development .I'm fascinated by the intersection of development and operations, 
-      as well as my desire to design user-friendly, visually stunning applications.</p>
+       I am currently working as an entry-level React Developer at TCS, gaining hands-on experience in React development, building user interfaces, and working with GraphQL APIs
+</p>
       <h3 className='mt-2 max-md:hidden uppercase tracking-widest'>I'm looking for 
       <span>
 
